@@ -59,6 +59,7 @@ header {
   padding: 10px;
   cursor: pointer;
   background-color: #daffed;
+  margin-bottom: 10px;
 }
 
 .home {
@@ -74,6 +75,3 @@ header {
   gap: 10px;
 }
 
-footer {
-  padding: 20px;
-}
