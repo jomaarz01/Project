@@ -42,6 +42,23 @@ header {
 
 .portfolio {
   margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+.colorFlipper {
+  padding: 20px;
+  background-color:#1a1f16;
+  color: #daffed;
+  border-radius: 20px;
+  margin: 0px 30% 0px 30% ;
+}
+
+.colorFlipper button{
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #daffed;
 }
 
 .home {
@@ -57,3 +74,6 @@ header {
   gap: 10px;
 }
 
+footer {
+  padding: 20px;
+}

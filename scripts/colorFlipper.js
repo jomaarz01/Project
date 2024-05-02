@@ -1,3 +1,12 @@
+const origColor = '#daffed'
+
+const origColorButton = document.getElementById('orig-color-button');
+
+origColorButton.addEventListener('click', function(){
+  color.textContent = origColor;
+  document.body.style.backgroundColor = origColor;
+})
+
 const color = document.querySelector(".js-color");
 
 const hex = [0,1,2,3,4,5,6,7,8,9, "A", "B", "C", "D", "E", "F"];
