@@ -4,25 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jomar Zambrano</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="styles/index.css">
+
 </head>
 <body>
   <header>
-    <nav>
-      <ul class="navLinks">
-        <li>
-          <a href="#home">HOME</a>
-        </li>
-        <li>
-          <a href="#about">ABOUT</a>
-        </li>
-        <li>
-          <a href="#portfolio">PORTFOLIO</a>
-        </li>
-        <li>
-          <a href="#contactMe">CONTACT ME</a>
-        </li>
-      </ul>
+    <nav id="nav">
+      <div class="nav-center">
+        <div class="nav-header">
+          <img src="images/index.jpg" alt="logo" class="logo">
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="links-container">
+          <ul class="links">
+            <li>
+              <a href="#home" class="scroll-link"> HOME</a>
+            </li>
+            <li>
+              <a href="#about" class="scroll-link">ABOUT</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="scroll-link">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="#contactMe" class="scroll-link">CONTACT ME</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
   <div class="home section" id="home">
@@ -63,6 +75,9 @@
   <footer>
     <div class="contactMe" id="contactMe">
       <p>E-MAIL ADDRESS: jomarzambrano0.0@gmail.com</p>
+    </div>
+    <div>
+      <p><span id="date"></span></p>
     </div>
   </footer>
   <script src="scripts/index.js"></script>
